@@ -1,0 +1,20 @@
+1. Introduction
+Every day millions of people are involved in car accidents. If there was an
+algorithm to predict the severity of an accident, it could enable faster aid to arrive at the
+scene of the accident. For example, it could help inform police officers what kind of
+accident and to send the right kind of help.
+In this project, we are attempting to predict the severity of vehicle accidents. We
+utilize the data given by using the number of people and vehicles involved in the accident
+and what kind of accident had occurred, whether it was only damage to property or
+damage to passengers as well.
+
+2. Data
+The data set used in this project can be found at
+https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP07
+01EN/version-2/Data-Collisions.csv. This data set contains the driving conditions, the
+number of people and vehicles involved in the crash, and the severity of the crash.
+There were several problems regarding this data set. Some entries were missing
+crucial data required for this algorithm. For example, some columns were filled with an
+“Unknown” in the number of vehicles or persons injured. To remedy this, I had decided
+to drop the row as a whole as I believed filling in the data with the mean number of
+cars/people would not be an accurate representation of the car crash.
